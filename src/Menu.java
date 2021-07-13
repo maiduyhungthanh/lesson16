@@ -1,8 +1,10 @@
 public class Menu {
-    public static void choose(){
-        System.out.println("1: Hiển thị thông tin dựa trên danh mục");
-        System.out.println("2: Hiển thị thông tin dựa theo hãng");
-        System.out.println("3: Hiển thị thông tin theo danh mục và mức giá");
+    
+
+    public static void choose() {
+        System.out.println("1: MENU - danh mục");
+        System.out.println("2: Tìm kiếm sản phẩm theo hãng");
+        System.out.println("3: Tìm kiếm sản phẩm theo mức giá");
         System.out.println("4: Tìm kiếm sản phẩm");
       
     }
@@ -20,8 +22,12 @@ public class Menu {
         System.out.println("2: Samsung");
         System.out.println("3: Oppo");
     } 
-    
-    
+
+    public static void chooseLaptop() {
+        System.out.println("1: Asus");
+        System.out.println("2: Dell");
+        System.out.println("3: Macbook");
+    }
 
     public static void choosePrice(){
         System.out.println("Chọn mức giá: ");
@@ -32,4 +38,5 @@ public class Menu {
         System.out.println("5: Trên 13 triệu");
     }
 
+    
 }
